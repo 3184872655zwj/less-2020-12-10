@@ -1,0 +1,74 @@
+.mixi(@size){
+   border: @size solid transparent;
+}
+.folat(){
+    float: left;
+}
+
+// 第一个ul
+.one{
+    list-style: none;
+    .folat();
+    li:nth-child(1){
+        .mixi(40px);
+        float: left;
+        border-right-color: red;
+    }
+    li:nth-child(2){
+        .mixi(30px);
+        float: left;
+        border-right-color: blue;
+    }
+
+}
+
+// // 第二个ul
+.two{
+    list-style: none;
+    .folat();
+    li:nth-child(1){
+        .mixi(40px);
+        float: left;
+        border-top-color: red;
+    }
+    li:nth-child(2){
+        .mixi(30px);
+        float: left;
+        border-top-color: black;
+    }
+}
+// // 第三个ul
+.three{
+    list-style: none;
+    .folat();
+    li:nth-child(1){
+        .mixi(40px);
+        float: left;
+        border-left-color: red;
+    }
+    li:nth-child(2){
+        .mixi(30px);
+        float: left;
+        border-left-color: blue;
+    }
+}
+// // 第四个ul
+.four{
+    list-style: none;
+    .folat();
+    li:nth-child(1){
+        .mixi(40px);
+        float: left;
+        border-bottom-color: red;
+    }
+    li:nth-child(2){
+        .mixi(30px);
+        float: left;
+        border-bottom-color: blue;
+    }
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
