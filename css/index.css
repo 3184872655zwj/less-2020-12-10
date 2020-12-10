@@ -3,13 +3,13 @@
   float: left;
 }
 .one li:nth-child(1) {
-  border: 40px solid transparent;
   float: left;
+  border: 40px solid transparent;
   border-right-color: red;
 }
 .one li:nth-child(2) {
-  border: 30px solid transparent;
   float: left;
+  border: 30px solid transparent;
   border-right-color: blue;
 }
 .two {
@@ -17,13 +17,13 @@
   float: left;
 }
 .two li:nth-child(1) {
-  border: 40px solid transparent;
   float: left;
+  border: 40px solid transparent;
   border-top-color: red;
 }
 .two li:nth-child(2) {
-  border: 30px solid transparent;
   float: left;
+  border: 30px solid transparent;
   border-top-color: black;
 }
 .three {
@@ -31,13 +31,13 @@
   float: left;
 }
 .three li:nth-child(1) {
-  border: 40px solid transparent;
   float: left;
+  border: 40px solid transparent;
   border-left-color: red;
 }
 .three li:nth-child(2) {
-  border: 30px solid transparent;
   float: left;
+  border: 30px solid transparent;
   border-left-color: blue;
 }
 .four {
@@ -45,13 +45,13 @@
   float: left;
 }
 .four li:nth-child(1) {
-  border: 40px solid transparent;
   float: left;
+  border: 40px solid transparent;
   border-bottom-color: red;
 }
 .four li:nth-child(2) {
-  border: 30px solid transparent;
   float: left;
+  border: 30px solid transparent;
   border-bottom-color: blue;
 }
 ul {

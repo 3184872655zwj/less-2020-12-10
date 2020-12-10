@@ -1,6 +1,9 @@
-.mixi(@size){
+.mixi(@size ,@dire ,@color){
+    float: left;
    border: @size solid transparent;
+    border-@{dire}-color:@color ;
 }
+
 .folat(){
     float: left;
 }
@@ -10,14 +13,10 @@
     list-style: none;
     .folat();
     li:nth-child(1){
-        .mixi(40px);
-        float: left;
-        border-right-color: red;
+        .mixi(40px ,right , red);
     }
     li:nth-child(2){
-        .mixi(30px);
-        float: left;
-        border-right-color: blue;
+        .mixi(30px,right , blue);
     }
 
 }
@@ -27,14 +26,10 @@
     list-style: none;
     .folat();
     li:nth-child(1){
-        .mixi(40px);
-        float: left;
-        border-top-color: red;
+        .mixi(40px , top , red);
     }
     li:nth-child(2){
-        .mixi(30px);
-        float: left;
-        border-top-color: black;
+        .mixi(30px,top , black);
     }
 }
 // // 第三个ul
@@ -42,14 +37,10 @@
     list-style: none;
     .folat();
     li:nth-child(1){
-        .mixi(40px);
-        float: left;
-        border-left-color: red;
+        .mixi(40px,left,red);
     }
     li:nth-child(2){
-        .mixi(30px);
-        float: left;
-        border-left-color: blue;
+        .mixi(30px,left,blue);
     }
 }
 // // 第四个ul
@@ -57,14 +48,10 @@
     list-style: none;
     .folat();
     li:nth-child(1){
-        .mixi(40px);
-        float: left;
-        border-bottom-color: red;
+        .mixi(40px,bottom,red);
     }
     li:nth-child(2){
-        .mixi(30px);
-        float: left;
-        border-bottom-color: blue;
+        .mixi(30px,bottom,blue);
     }
 }
 
